@@ -1,0 +1,2 @@
+INSERT INTO `msvc_veterinaria_clientes`.`tipo_documento` (`estado`, `fecha_creacion`, `fecha_modificacion`, `usuario_creacion`, `usuario_modificacion`, `descripcion`)
+VALUES (1, CURDATE( ), null, 1, null,'DNI');

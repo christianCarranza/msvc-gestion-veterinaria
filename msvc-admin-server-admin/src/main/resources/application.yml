@@ -1,0 +1,17 @@
+server:
+  port: 8890
+spring:
+  application:
+    name: msvc-admin-server-admin
+  boot:
+    admin:
+      discovery:
+        ignored-services: msvc-admin-server-admin
+
+# Registry Client
+eureka:
+   client:
+      registryFetchIntervalSeconds: 5
+      fetch-registry: true
+      serviceUrl:
+         defaultZone: http://localhost:8889/eureka
