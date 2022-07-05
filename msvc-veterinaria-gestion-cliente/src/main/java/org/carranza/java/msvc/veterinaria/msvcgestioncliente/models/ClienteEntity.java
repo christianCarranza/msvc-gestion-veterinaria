@@ -1,11 +1,9 @@
 package org.carranza.java.msvc.veterinaria.msvcgestioncliente.models;
 
 import lombok.*;
-import lombok.experimental.SuperBuilder;
 import org.hibernate.Hibernate;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 import java.util.Objects;
 

@@ -14,7 +14,7 @@ public class OpenApiConfig {
         return new OpenAPI()
                 .components(new Components())
                 .info(new Info()
-                        .title("MSVC-GESTION-CLIENTE")
+                        .title("MSVC-GESTION-PRODUCTO")
                         .description("Sistema de gestion veterianaria")
                         .contact(new Contact().email("carranzachristian61@gmail.com"))
                         .version("1.0.0")

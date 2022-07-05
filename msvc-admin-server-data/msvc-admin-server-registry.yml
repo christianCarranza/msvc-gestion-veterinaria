@@ -10,9 +10,3 @@ eureka:
         serviceUrl:
            defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
    wait-time-in-ms-when-sync-empty: 0
-   
-#spring:
-#  boot: 
-#    admin:
-#      client:
-#        url: http://localhost:8890

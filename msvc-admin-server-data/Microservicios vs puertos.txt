@@ -1,0 +1,37 @@
+--------------------------------------------
+Negocio
+--------------------------------------------
+
+1.- ms-gestion-productos				8081
+2.- ms-gestion-clientes					8082
+3.- ms-gestion-pedidos					8083
+
+4.- ms-gestion-pedidos-query			8084
+5.- ms-gestion-pedidos-command			8085
+6.- ms-gestion-pedidos-producer			8086
+7.- ms-gestion-pedidos-consumer			8087
+8.- ms-gestion-pedidos-autorizacion		8088 (SAGA)
+9.- ms-gestion-pedidos-credito-estandar	8090
+10.-ms-gestion-pedidos-credito-especial	8091
+
+--------------------------------------------
+Administración (Admin):
+--------------------------------------------
+15.-ms-admin-config-server				8888
+16.-ms-admin-registry-server			8889
+17.-ms-admin-server-admin				8890
+18.-ms-admin-api-gateway				8891
+
+--------------------------------------------
+Topics de Apache Kafka:
+--------------------------------------------
+topic-orden								SQRS
+topic-orden-autorizacion				SAGA
+topic-orden-credito-estandar			SAGA
+topic-orden-credito-especial			SAGA
+
+---------------------------------------------
+
+
+
+	

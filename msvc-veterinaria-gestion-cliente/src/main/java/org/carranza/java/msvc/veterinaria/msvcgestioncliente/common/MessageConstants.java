@@ -4,7 +4,6 @@ public class MessageConstants {
 	/* APIS */
 
 	public static final String  	API_CLIENTE		=	"/v1/clientes";
-	public static final String  	API_PERIDO_ACADEMICO		=	"/v1/periodoAcademico";
 
 
 	/* Mensajes*/
