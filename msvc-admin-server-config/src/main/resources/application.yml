@@ -17,4 +17,4 @@ spring:
           clone-on-start: true
           force-pull: true
           timeout: 5
-          default-label: master
+          default-label: main
